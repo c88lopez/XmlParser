@@ -18,6 +18,9 @@ class ParserTest extends \PHPUnit_Framework_TestCase
      */
     protected $instance;
 
+    /**
+     * setUp
+     */
     public function setUp()
     {
         $this->instance = new Parser();
