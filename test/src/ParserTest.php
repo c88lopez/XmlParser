@@ -34,6 +34,9 @@ class ParserTest extends \PHPUnit_Framework_TestCase
         unset($this->instance);
     }
 
+    /**
+     * testSettersAndGetters
+     */
     public function testSettersAndGetters()
     {
         $dummyUrl = 'a/dummy/and/invalid/url';
